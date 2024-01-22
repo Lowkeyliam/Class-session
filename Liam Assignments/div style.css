@@ -1,0 +1,22 @@
+.main{
+    padding: 20px;
+}
+.first{
+    display:flex;
+    padding: 10px;
+}
+.sec{
+    display: flex;
+     padding: 10px;
+}
+.third{
+    display: flex;
+     padding: 10px;
+}
+p{
+    margin-left: 20px;
+    padding: inherit;
+}
+.img{
+    width: 90%;
+}

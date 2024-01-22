@@ -1,0 +1,52 @@
+form{
+    background-color: cyan;
+    width: 40%;
+    height: 50%;
+    margin: auto;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+input[type=date],input[type=text]{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+div{
+    display: flex;
+    padding: inherit;
+}
+select{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+textarea{
+    border-radius: 5px;
+}
+.one{
+    background-color: #50ee00;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 150px;
+    color: white;
+}
+.two{
+    background-color: dodgerblue;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+label{
+    width: 130px;
+    display: inline-block;
+}

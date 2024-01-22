@@ -1,0 +1,38 @@
+.head{
+    color: #00e1ff;
+}
+.head2{
+    font-style: italic;
+}
+#head3{
+    font-family: "DejaVu Sans";
+}
+.eMobilis{
+    background-color: #6b43f8;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #03fa9a;
+}
+.mytest{
+    display: flex;
+    background-color: beige;
+    padding: 20px;
+}
+.para1{
+    margin-left: 30px;
+}
+.main{
+    display: flex;
+}
+.pr1{
+    background-color: dodgerblue;
+}
+.pr2{
+    background-color: antiquewhite;
+}
+.pr3{
+    background-color: cyan;
+}

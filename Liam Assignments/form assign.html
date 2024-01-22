@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Assign</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+<h1><u>Project Management</u></h1>
+<form action="">
+
+    <label for="name">Project Name </label>
+    <input type="text" id="name" placeholder="project name" required="required">
+    <br><br>
+    
+    <label for="assign">Assigned to </label>
+    <select name="" id="assign" >
+        <option value="choose" disabled="disabled">--Select Person--</option>
+        <option value="mr1">Er Merry Petsion</option>
+        <option value="mr2">Er David Batista</option>
+        <option value="mrs1">Er Tanjiro Kamado</option>
+    </select>
+    <br><br>
+    
+    <label for="date1">Start Date</label>
+    <input type="date" id="date1" required="required">
+    <br><br>
+    
+    <label for="date2">End Date</label>
+    <input type="date" id="date2" required="required">
+    <br><br>
+
+    <label for="priority" id="priority">Priority</label>
+    <input type="radio">High
+    <input type="radio">Average
+    <input type="radio">Low
+    <br><br>
+
+    <div>
+    <label for="desc" class="dee">Description</label>
+    <textarea name="" id="desc" cols="40" rows="3"></textarea>
+    </div>
+    <br>
+
+    <div>
+        <button class="one" type="submit">Submit</button>
+        <button class="two" type="reset">Clear</button>
+    </div>
+</form>
+</body>
+</html>
